@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Embra — App hosting, with Postgres in mind.</title>
+  <desc id="desc">The Embra mark and wordmark on charcoal, with a restrained amber accent.</desc>
+  <rect width="1200" height="360" rx="8" fill="#232323"/>
+  <path d="M880 0v360M960 0v360M1040 0v360M1120 0v360M840 80h360M840 160h360M840 240h360M840 320h360" stroke="#fafafa" stroke-opacity=".045"/>
+  <path d="M64 290h1072" stroke="#fafafa" stroke-opacity=".16"/>
+  <g transform="translate(44 46) scale(1.7)">
+    <path fill="#fafafa" d="M25.5 8L30.5 8L29.5 12L50.5 12L48.5 20L30.5 20L29.5 24L42.5 24L40.5 32L27.5 32L26.5 36L44.5 36L43.5 40L38.5 44L21.5 44L20.5 48L15.5 48L16.5 44L13.5 44L20.5 16L21.5 12L24.5 12Z"/>
+  </g>
+  <text x="150" y="119" fill="#fafafa" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Embra</text>
+  <text x="66" y="207" fill="#fafafa" font-family="Arial, Helvetica, sans-serif" font-size="42" letter-spacing="-1">App hosting, with Postgres in mind.</text>
+  <text x="68" y="251" fill="#b5b5ad" font-family="Arial, Helvetica, sans-serif" font-size="21">Built for teams in Vietnam.</text>
+  <circle cx="73" cy="324" r="5" fill="#deb562"/>
+  <text x="91" y="331" fill="#d1d1c9" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.5">CLOSED ALPHA</text>
+  <text x="1134" y="331" text-anchor="end" fill="#b5b5ad" font-family="Arial, Helvetica, sans-serif" font-size="17">embra.cloud</text>
+</svg>
