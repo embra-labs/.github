@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://embra.cloud/">Website</a> &nbsp;·&nbsp;
+  <a href="https://embra.cloud/engineering/">Engineering</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/start-here.md">Start here (Tiếng Việt)</a> &nbsp;·&nbsp;
   <a href="https://embra.cloud/#join">Request alpha access</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/changelog.md">Changelog</a> &nbsp;·&nbsp;
@@ -25,6 +26,10 @@ Shipping an app means changing code **and** the data it depends on. We're design
 - **Make recovery decisions clear.** Show what can be restored, and what data could be lost.
 
 Explore the [interactive concept demo](https://embra.cloud/) on our website. It illustrates the intended workflow; it is not a live production deployment.
+
+### Engineering notes
+
+[Backfilling 8 million rows: correctness passed, latency did not](https://embra.cloud/engineering/backfill-8m/) (Tiếng Việt). A lab report on transactional checkpoints, interrupted backfills, and p99 measurement—with figures, aggregate data, and measurement limits.
 
 ### Explore Embra
 
