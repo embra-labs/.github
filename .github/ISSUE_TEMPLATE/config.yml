@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Bắt đầu với Embra / Start here"
+    url: "https://github.com/embra-labs/.github/blob/main/docs/start-here.md"
+    about: "Phạm vi hiện tại, đăng ký alpha và theo dõi CLI."
+  - name: "Hỗ trợ riêng hoặc báo lỗi bảo mật / Private support or security"
+    url: "https://github.com/embra-labs/.github/blob/main/SUPPORT.md"
+    about: "Cách liên hệ riêng; không gửi dữ liệu nhạy cảm vào GitHub Issues."
