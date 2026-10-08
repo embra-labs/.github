@@ -8,6 +8,7 @@
   <a href="https://embra.cloud/">Website</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/start-here.md">Start here (Tiếng Việt)</a> &nbsp;·&nbsp;
   <a href="https://embra.cloud/#join">Request alpha access</a> &nbsp;·&nbsp;
+  <a href="https://github.com/embra-labs/.github/blob/main/docs/changelog.md">Changelog</a> &nbsp;·&nbsp;
   <a href="mailto:hello@embra.cloud">Contact</a>
 </p>
 
