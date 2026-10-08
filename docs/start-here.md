@@ -2,7 +2,7 @@
 
 Hosting cho developer và team nhỏ tại Việt Nam, tập trung vào ứng dụng có Postgres.
 
-[Website](https://embra.cloud/) · [Đăng ký alpha](https://embra.cloud/#join) · [GitHub](https://github.com/embra-labs)
+[Website](https://embra.cloud/) · [Đăng ký alpha](https://embra.cloud/#join) · [GitHub](https://github.com/embra-labs) · [Hỗ trợ / Báo lỗi](https://github.com/embra-labs/.github/blob/main/SUPPORT.md)
 
 **Closed alpha · onboarding thủ công.** Embra đang được xây dựng. Hiện chưa có dịch vụ để bạn tự đăng ký và deploy ngay, chưa nhận app production và chưa phát hành CLI công khai.
 
