@@ -2,9 +2,9 @@
 
 Hosting cho developer và team nhỏ tại Việt Nam, tập trung vào ứng dụng có Postgres.
 
-[Website](https://embra.cloud/) · [Đăng ký alpha](https://embra.cloud/#join) · [GitHub](https://github.com/embra-labs) · [Hỗ trợ / Báo lỗi](https://github.com/embra-labs/.github/blob/main/SUPPORT.md)
+[Website](https://embra.cloud/) · [Đăng ký quan tâm alpha](https://embra.cloud/#join) · [GitHub](https://github.com/embra-labs) · [Hỗ trợ / Báo lỗi](https://github.com/embra-labs/.github/blob/main/SUPPORT.md)
 
-**Closed alpha · onboarding thủ công.** Embra đang được xây dựng. Hiện chưa có dịch vụ để bạn tự đăng ký và deploy ngay, chưa nhận app production và chưa phát hành CLI công khai.
+**Đang phát triển · chuẩn bị closed alpha theo lời mời.** Embra tiếp tục từ nền tảng M1 sang flow sản phẩm M2; ngày mở đợt thử chưa chốt. Hiện chưa có dịch vụ để bạn tự đăng ký và deploy ngay, chưa nhận app production và chưa phát hành CLI công khai.
 
 ## Chọn bước tiếp theo
 
@@ -24,11 +24,11 @@ Hosting cho developer và team nhỏ tại Việt Nam, tập trung vào ứng d�
 
 Một lần deploy có thể thay đổi cả code lẫn dữ liệu mà code phụ thuộc vào. Embra đang thiết kế luồng làm việc để bạn hiểu tác động của migration trước khi chạy, duyệt thay đổi rõ ràng và biết cách phục hồi khi có sự cố.
 
-Phạm vi triển khai đầu tiên tập trung vào **CLI, ứng dụng đóng gói thành container image và PostgreSQL**. Build trực tiếp từ source, dashboard, MCP và domain riêng của khách chưa nằm trong đợt triển khai đầu. Phạm vi dùng thử thực tế sẽ được ghi trong lời mời.
+**M1** xây nền tảng CLI, container image, PostgreSQL và migration gate. **M2** tiếp tục flow build, deploy, review và recovery đang minh hoạ trên website; giao diện, build từ source và MCP là hướng phát triển tiếp theo. Lời mời sẽ xác nhận những khả năng đã sẵn sàng để bạn thử.
 
 ## Sau khi đăng ký alpha
 
-1. Bạn mô tả dự án muốn thử qua form trên website.
+1. Bạn mô tả dự án muốn thử qua form trên website và xác nhận email. Xác nhận email chưa cấp quyền truy cập.
 2. Khi có đợt thử nghiệm phù hợp, Embra liên hệ để xác nhận stack, giới hạn tài nguyên, thời gian thử, chi phí và cách hỗ trợ.
 3. Trước khi bắt đầu, bạn nhận hướng dẫn truy cập, phiên bản CLI được hỗ trợ và cách lấy dữ liệu ra khi kết thúc.
 

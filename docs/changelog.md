@@ -6,6 +6,13 @@ Những thay đổi đã được xuất bản, mới nhất ở trên. Ngày th
 
 Các mục dưới đây là cập nhật tài liệu và trải nghiệm GitHub. **Tại ngày 08/10/2026, Embra vẫn ở closed alpha, onboarding thủ công; CLI chưa có bản phát hành công khai.** Bản phần mềm khi phát hành sẽ có phiên bản và liên kết tới [CLI Releases](https://github.com/embra-labs/cli/releases).
 
+## 08/10/2026 — Lộ trình, bằng chứng và đường bắt đầu
+
+- Đồng bộ website, Markdown, `llms.txt`, profile và README CLI: M1 xây nền tảng, M2 tiếp tục flow sản phẩm đang minh hoạ. Phạm vi dùng thử được xác nhận trong lời mời.
+- Giữ flow UI theo hướng M2 và làm rõ trạng thái minh hoạ. Đưa bài lab và demo chạy được cạnh tiến độ để người đọc kiểm chứng.
+- Nối Start here và hỗ trợ từ website; làm rõ đăng ký/xác nhận email chưa cấp quyền truy cập và ngày mở đợt thử chưa chốt.
+- Cho phép thao tác demo bằng bàn phím; nhãn phục hồi nêu đúng trở về mốc trước release.
+
 ## 08/10/2026 — Demo backfill chạy lại được
 
 - Xuất bản [backfill-demo](https://github.com/embra-labs/backfill-demo): PostgreSQL, app workload, kill executor trước/sau commit và chạy tiếp từ checkpoint.

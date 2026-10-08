@@ -8,14 +8,16 @@
   <a href="https://embra.cloud/">Website</a> &nbsp;·&nbsp;
   <a href="https://embra.cloud/engineering/">Engineering</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/start-here.md">Start here (Tiếng Việt)</a> &nbsp;·&nbsp;
-  <a href="https://embra.cloud/#join">Request alpha access</a> &nbsp;·&nbsp;
+  <a href="https://embra.cloud/#join">Join alpha waitlist</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/changelog.md">Changelog</a> &nbsp;·&nbsp;
   <a href="mailto:hello@embra.cloud">Contact</a>
 </p>
 
 We're building an app hosting platform for teams in Vietnam, with Postgres at the heart of the deployment workflow.
 
-**Closed alpha · Manual onboarding.** Embra is under active development. See our [current scope and progress](https://embra.cloud/#trang-thai) before requesting access.
+**In development · Preparing closed alpha with manual onboarding by invitation.** See our [roadmap and evidence](https://embra.cloud/#trang-thai). Joining the waitlist does not grant immediate access; the opening date is not set.
+
+M1 builds the CLI, container-image deployment, Postgres, and migration foundations. M2 continues the product flow illustrated on the website. The invitation will confirm which capabilities are ready.
 
 ### What we're building
 
