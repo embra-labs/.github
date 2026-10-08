@@ -6,6 +6,12 @@ Những thay đổi đã được xuất bản, mới nhất ở trên. Ngày th
 
 Các mục dưới đây là cập nhật tài liệu và trải nghiệm GitHub. **Tại ngày 08/10/2026, Embra vẫn ở closed alpha, onboarding thủ công; CLI chưa có bản phát hành công khai.** Bản phần mềm khi phát hành sẽ có phiên bản và liên kết tới [CLI Releases](https://github.com/embra-labs/cli/releases).
 
+## 08/10/2026 — Demo backfill chạy lại được
+
+- Xuất bản [backfill-demo](https://github.com/embra-labs/backfill-demo): PostgreSQL, app workload, kill executor trước/sau commit và chạy tiếp từ checkpoint.
+- Ba ca hợp lệ và hai đối chứng sai, có verifier, kết quả mẫu và CI. Fixture độc lập 1.000 dòng, không phải tái lập benchmark tám triệu dòng hoặc bản phát hành sản phẩm.
+- Nối demo từ bài engineering, profile và trang Bắt đầu.
+
 ## 08/10/2026 — Engineering trên website
 
 - Mở mục [Engineering](https://embra.cloud/engineering/) và xuất bản [Backfill 8 triệu dòng: dữ liệu đúng, nhưng latency không đạt](https://embra.cloud/engineering/backfill-8m/).

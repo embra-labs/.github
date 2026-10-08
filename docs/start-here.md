@@ -12,6 +12,7 @@ Hosting cho developer và team nhỏ tại Việt Nam, tập trung vào ứng d�
 | :--- | :--- |
 | Xem Embra vừa cập nhật gì | [Changelog](https://github.com/embra-labs/.github/blob/main/docs/changelog.md) |
 | Đọc thử nghiệm kỹ thuật và xem số liệu | [Engineering: backfill 8 triệu dòng](https://embra.cloud/engineering/backfill-8m/) — kết quả lab, không phải cam kết production |
+| Tự chạy ví dụ checkpoint và backfill | [backfill-demo](https://github.com/embra-labs/backfill-demo) — Docker Compose, có CI và đối chứng sai; fixture riêng 1.000 dòng |
 | Hiểu Embra đang làm gì | [Phạm vi và tiến độ](https://embra.cloud/#trang-thai) |
 | Xem cách luồng deploy dự kiến hoạt động | [Demo tương tác trên website](https://embra.cloud/) — minh hoạ, không chạy trên app thật |
 | Chuẩn bị app có database trước khi deploy | [Hướng dẫn deploy với Postgres](https://github.com/embra-labs/.github/blob/main/docs/deploy-with-postgres.md) — dùng được cả khi tự host |

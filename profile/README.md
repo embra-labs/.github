@@ -31,10 +31,13 @@ Explore the [interactive concept demo](https://embra.cloud/) on our website. It 
 
 [Backfilling 8 million rows: correctness passed, latency did not](https://embra.cloud/engineering/backfill-8m/) (Tiếng Việt). A lab report on transactional checkpoints, interrupted backfills, and p99 measurement—with figures, aggregate data, and measurement limits.
 
+Try the [runnable backfill demo](https://github.com/embra-labs/backfill-demo): one command, two crash boundaries, and negative controls that catch skipped/repeated work. A separate 1,000-row teaching fixture, not the article’s benchmark.
+
 ### Explore Embra
 
 | Repository | What you'll find |
 | :--- | :--- |
+| [backfill-demo](https://github.com/embra-labs/backfill-demo) | Runnable PostgreSQL crash/resume example with CI and negative controls. |
 | [cli](https://github.com/embra-labs/cli) | Home of the Embra command-line client. In development; no public release yet. |
 | [embra-cloud](https://github.com/embra-labs/embra-cloud) | Source for the Embra website. |
 
