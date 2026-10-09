@@ -13,7 +13,9 @@
   <a href="mailto:hello@embra.cloud">Contact</a>
 </p>
 
-We're building an app hosting platform for teams in Vietnam, with Postgres at the heart of the deployment workflow.
+We're building app and PostgreSQL hosting for developers and small teams in Vietnam: build, deploy, and follow your app in one project.
+
+If the person writing code is also configuring servers and handling deployments, Embra is designed to bring that work into one workflow. Database review and recovery preparation are part of it.
 
 **In development · Preparing closed alpha with manual onboarding by invitation.** See our [roadmap and evidence](https://embra.cloud/#trang-thai). Joining the waitlist does not grant immediate access; the opening date is not set.
 
@@ -21,19 +23,25 @@ M1 builds the CLI, container-image deployment, Postgres, and migration foundatio
 
 ### What we're building
 
-Shipping an app means changing code **and** the data it depends on. We're designing Embra around three priorities:
+Shipping an app means changing code **and** the data it depends on. We're designing Embra around the full deployment workflow:
+
+- **Build and deploy the app.** Configure environments, inspect build logs, and follow release history alongside Postgres.
 
 - **Understand database changes before deployment.** Rehearse migrations and surface their impact before applying them.
 - **Keep consequential changes under your control.** Make approval an explicit part of the workflow.
 - **Make recovery decisions clear.** Show what can be restored, and what data could be lost.
 
-Explore the [interactive concept demo](https://embra.cloud/) on our website. It illustrates the intended workflow; it is not a live production deployment.
+Explore the [interactive concept demo](https://embra.cloud/#stage) on our website. It illustrates the intended workflow; it is not a live production deployment.
 
 ### Engineering notes
 
 [Backfilling 8 million rows: correctness passed, latency did not](https://embra.cloud/engineering/backfill-8m/) (Tiếng Việt). A lab report on transactional checkpoints, interrupted backfills, and p99 measurement—with figures, aggregate data, and measurement limits.
 
 Try the [runnable backfill demo](https://github.com/embra-labs/backfill-demo): one command, two crash boundaries, and negative controls that catch skipped/repeated work. A separate 1,000-row teaching fixture, not the article’s benchmark.
+
+### Who is building it?
+
+[Hoàng Xuân](https://github.com/hxuan190) builds and supports Embra. Read the [founder’s note](https://embra.cloud/#nguoi-lam) or review [data, recovery, and support questions](https://embra.cloud/#hoi-dap). Alpha is for test projects; production apps are not being accepted.
 
 ### Explore Embra
 
