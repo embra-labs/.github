@@ -20,7 +20,7 @@ Bạn đang xây website, web app hoặc API; người viết code cũng là ng�
 | Hiểu quyền truy cập dữ liệu, restore và hỗ trợ | [Trước khi bắt đầu](https://embra.cloud/#hoi-dap) |
 | Hiểu Embra đang làm gì | [Phạm vi và tiến độ](https://embra.cloud/#trang-thai) |
 | Xem cách luồng deploy dự kiến hoạt động | [Demo tương tác trên website](https://embra.cloud/) — minh hoạ, không chạy trên app thật |
-| Chuẩn bị app có database trước khi deploy | [Hướng dẫn deploy với Postgres](https://github.com/embra-labs/.github/blob/main/docs/deploy-with-postgres.md) — dùng được cả khi tự host |
+| Chuẩn bị app có database trước khi deploy | [Hướng dẫn deploy với Postgres](https://embra.cloud/engineering/deploy-with-postgres/) — dùng được cả khi tự host |
 | Thử Embra với dự án của mình | [Đăng ký quan tâm alpha](https://embra.cloud/#join) |
 | Tìm CLI và bản phát hành | [Repo CLI](https://github.com/embra-labs/cli) · [Releases](https://github.com/embra-labs/cli/releases) — hiện chưa có bản cài |
 | Trao đổi trước khi đăng ký | [hello@embra.cloud](mailto:hello@embra.cloud) |
