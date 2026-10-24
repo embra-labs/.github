@@ -1,58 +1,60 @@
 # Bắt đầu với Embra
 
-Embra đang xây dựng hosting app và PostgreSQL cho developer và team nhỏ tại Việt Nam: build, deploy và theo dõi app trong cùng một project, với review thay đổi database và chuẩn bị phục hồi.
+Embra là hosting app và PostgreSQL cho developer và team nhỏ tại Việt Nam: deploy từ GitHub, database riêng có review migration, backup liên tục và restore theo thời điểm. Máy chủ đặt tại TP.HCM.
 
-[Website](https://embra.cloud/) · [Đăng ký quan tâm alpha](https://embra.cloud/#join) · [GitHub](https://github.com/embra-labs) · [Hỗ trợ / Báo lỗi](https://github.com/embra-labs/.github/blob/main/SUPPORT.md)
+[Website](https://embra.cloud/) · [Bảng giá](https://embra.cloud/bang-gia/) · [GitHub](https://github.com/embra-labs) · [Hỗ trợ / Báo lỗi](https://github.com/embra-labs/.github/blob/main/SUPPORT.md)
 
-**Đang phát triển · chuẩn bị closed alpha theo lời mời.** Embra tiếp tục từ nền tảng M1 sang flow sản phẩm M2; ngày mở đợt thử chưa chốt. Hiện chưa có dịch vụ để bạn tự đăng ký và deploy ngay, chưa nhận app production và chưa phát hành CLI công khai.
+**Beta trả phí từ 25/10/2026.** Embra nhận app production trong giới hạn từng gói. Mỗi khách được onboarding trực tiếp, chưa mở đăng ký tự phục vụ. Beta chưa có SLA.
 
 ## Có phù hợp với dự án của bạn?
 
-Bạn đang xây website, web app hoặc API; người viết code cũng là người cấu hình server và deploy. Embra hướng tới việc giảm phần vận hành bạn phải tự nối giữa app và database. Có thể bắt đầu từ frontend rồi thêm backend; alpha dành cho project thử nghiệm, chưa nhận app production.
+Bạn đang xây website, web app hoặc API, và người viết code cũng là người cấu hình server và deploy. Embra gom app và database vào một project để bạn không phải tự nối phần vận hành giữa hai thứ. Beta tập trung vào frontend, Node.js / Next.js và PostgreSQL. Bạn có thể bắt đầu từ frontend rồi thêm backend sau.
+
+## Có gì trong beta
+
+- Deploy từ GitHub qua dashboard, Embra tự build từ mã nguồn.
+- PostgreSQL riêng. Migration được chạy thử trên bản sao và hiện tác động trước khi bạn duyệt.
+- Backup liên tục, restore về thời điểm bất kỳ trong 7 ngày gần nhất ra một bản riêng để kiểm tra.
+- Worker, cron và bucket lưu file theo từng gói.
+- Domain riêng + HTTPS, log và metrics.
+- CLI và MCP (`embra mcp`). Qua MCP, agent được build, tạo plan, chạy thử migration và đọc log, nhưng không được duyệt, xoá, export hay restore. Deploy production luôn chờ owner duyệt.
+- Tự xuất app và dữ liệu bằng `embra export`.
+
+Chưa có: queue, auth, email, realtime.
 
 ## Chọn bước tiếp theo
 
 | Bạn muốn… | Bắt đầu ở đây |
 | :--- | :--- |
-| Xem Embra vừa cập nhật gì | [Changelog](https://github.com/embra-labs/.github/blob/main/docs/changelog.md) |
-| Đọc thử nghiệm kỹ thuật và xem số liệu | [Engineering: backfill 8 triệu dòng](https://embra.cloud/engineering/backfill-8m/) — kết quả lab, không phải cam kết production |
-| Tự chạy ví dụ checkpoint và backfill | [backfill-demo](https://github.com/embra-labs/backfill-demo) — Docker Compose, có CI và đối chứng sai; fixture riêng 1.000 dòng |
+| Xem giá và giới hạn từng gói | [Bảng giá](https://embra.cloud/bang-gia/): Start 249.000đ, Build 399.000đ, Grow 749.000đ mỗi project mỗi tháng |
+| So Embra với Vercel, Supabase, Railway, Render, VPS | [So sánh](https://embra.cloud/so-sanh/) |
+| Bắt đầu dùng | Gửi link repository và gói bạn chọn tới [hello@embra.cloud](mailto:hello@embra.cloud), hoặc [đăng ký trên website](https://embra.cloud/#join) |
+| Hiểu một lần deploy đi qua những đâu | [Bài kiến trúc](https://embra.cloud/engineering/how-embra-works/) |
+| Đọc thử nghiệm kỹ thuật và xem số liệu | [Engineering](https://embra.cloud/engineering/). Kết quả lab, không phải cam kết production |
+| Chuẩn bị app có database trước khi deploy | [Hướng dẫn deploy với Postgres](https://embra.cloud/engineering/deploy-with-postgres/), dùng được cả khi tự host |
 | Hiểu quyền truy cập dữ liệu, restore và hỗ trợ | [Trước khi bắt đầu](https://embra.cloud/#hoi-dap) |
-| Hiểu Embra đang làm gì | [Phạm vi và tiến độ](https://embra.cloud/#trang-thai) |
-| Xem cách luồng deploy dự kiến hoạt động | [Demo tương tác trên website](https://embra.cloud/) — minh hoạ, không chạy trên app thật |
-| Chuẩn bị app có database trước khi deploy | [Hướng dẫn deploy với Postgres](https://embra.cloud/engineering/deploy-with-postgres/) — dùng được cả khi tự host |
-| Thử Embra với dự án của mình | [Đăng ký quan tâm alpha](https://embra.cloud/#join) |
-| Tìm CLI và bản phát hành | [Repo CLI](https://github.com/embra-labs/cli) · [Releases](https://github.com/embra-labs/cli/releases) — hiện chưa có bản cài |
-| Trao đổi trước khi đăng ký | [hello@embra.cloud](mailto:hello@embra.cloud) |
+| Xem Embra vừa cập nhật gì | [Changelog](https://github.com/embra-labs/.github/blob/main/docs/changelog.md) |
 
-## Embra tập trung vào điều gì?
+## Bắt đầu như thế nào
 
-Flow đang xây dựng đi từ cấu hình environment và build đến deploy, xem logs và lịch sử của app trong cùng một project. Một lần deploy có thể thay đổi cả code lẫn dữ liệu mà code phụ thuộc vào. Embra đang thiết kế luồng làm việc để bạn hiểu tác động của migration trước khi chạy, duyệt thay đổi rõ ràng và biết cách phục hồi khi có sự cố.
-
-**M1** xây nền tảng CLI, container image, PostgreSQL và migration gate. **M2** tiếp tục flow build, deploy, review và recovery đang minh hoạ trên website; giao diện, build từ source và MCP là hướng phát triển tiếp theo. Lời mời sẽ xác nhận những khả năng đã sẵn sàng để bạn thử.
-
-## Sau khi đăng ký alpha
-
-1. Bạn mô tả dự án muốn thử qua form trên website và xác nhận email. Xác nhận email chưa cấp quyền truy cập.
-2. Khi có đợt thử nghiệm phù hợp, Embra liên hệ để xác nhận stack, giới hạn tài nguyên, thời gian thử, chi phí và cách hỗ trợ.
-3. Trước khi bắt đầu, bạn nhận hướng dẫn truy cập, phiên bản CLI được hỗ trợ và cách lấy dữ liệu ra khi kết thúc.
-
-Đăng ký là yêu cầu được liên hệ, chưa phải quyền truy cập ngay. Ngày mở đợt tiếp theo chưa được công bố.
+1. Bạn gửi link repository và gói muốn dùng. Embra trả lời để xác nhận stack và giới hạn.
+2. Embra setup cùng bạn, thường trong một buổi. Trước khi chuyển dữ liệu thật, hai bên thử restore trên bản sao database và thống nhất cách lấy dữ liệu ra.
+3. Hoá đơn tính từ ngày bắt đầu dùng. Bạn trả bằng chuyển khoản VietQR, và Embra tự xác nhận khi tiền về.
 
 ## Những điều cần biết
 
-**Chi phí:** chưa có bảng giá thương mại được chốt. Các con số trong demo là ví dụ; chi phí dùng thử phải được xác nhận trước khi chạy tài nguyên.
+**Chi phí:** giá niêm yết là số tiền bạn chuyển. Embra chưa có pháp nhân nên chưa xuất hoá đơn VAT. Xem [bảng giá](https://embra.cloud/bang-gia/).
 
-**Phục hồi:** rollback code và restore database là hai việc khác nhau. Restore về mốc cũ có thể bỏ các lần ghi sau mốc đó. Demo và kết quả lab không phải cam kết cho mọi ứng dụng.
+**Phục hồi:** rollback code và restore database là hai việc khác nhau. Restore về mốc cũ có thể bỏ các lần ghi sau mốc đó.
 
-**Dữ liệu ứng dụng:** cơ chế quyền truy cập và quy trình export alpha chưa được công bố đầy đủ. Trước khi thử, Embra sẽ xác nhận ai có quyền truy cập, phạm vi quyền và cách lấy dữ liệu ra khi kết thúc. Bạn chịu trách nhiệm code và logic ứng dụng.
+**Dữ liệu ứng dụng:** owner tự xuất app và dữ liệu bằng `embra export`. Mỗi lần đội Embra xem log, metrics hay database của bạn để hỗ trợ đều được ghi lại kèm lý do. Bạn chịu trách nhiệm code và logic ứng dụng.
 
-**Dữ liệu đăng ký:** xem [thông báo xử lý dữ liệu](https://embra.cloud/chinh-sach-du-lieu.html), bao gồm việc email đi qua Gmail. Không gửi mật khẩu, token hoặc dữ liệu khách hàng qua form hay GitHub Issues.
+**Dữ liệu đăng ký:** xem [thông báo xử lý dữ liệu](https://embra.cloud/chinh-sach-du-lieu.html). Không gửi mật khẩu, token hoặc dữ liệu khách hàng qua form hay GitHub Issues.
 
-**Liên hệ:** [hello@embra.cloud](mailto:hello@embra.cloud). Phạm vi và thời gian hỗ trợ sẽ được xác nhận trong lời mời alpha.
+**Hỗ trợ:** qua [hello@embra.cloud](mailto:hello@embra.cloud). Trong beta, người trả lời là người xây Embra. Embra cố gắng phản hồi trong ngày làm việc, nhưng đây chưa phải cam kết SLA.
 
 ---
 
-[Đăng ký quan tâm alpha →](https://embra.cloud/#join)
+[Xem bảng giá →](https://embra.cloud/bang-gia/)
 
-Cập nhật ngày 09/10/2026.
+Cập nhật ngày 25/10/2026.

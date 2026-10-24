@@ -6,7 +6,7 @@ Bạn có thể viết tiếng Việt hoặc English.
 
 | Bạn cần gì? | Liên hệ ở đâu? |
 | :--- | :--- |
-| Hiểu sản phẩm hoặc đăng ký alpha | [Bắt đầu với Embra](https://github.com/embra-labs/.github/blob/main/docs/start-here.md) |
+| Hiểu sản phẩm hoặc bắt đầu dùng beta | [Bắt đầu với Embra](https://github.com/embra-labs/.github/blob/main/docs/start-here.md) |
 | Báo lỗi website | [Issues của website](https://github.com/embra-labs/embra-cloud/issues/new/choose) |
 | Báo lỗi CLI hoặc README của CLI | [Issues của CLI](https://github.com/embra-labs/cli/issues/new/choose) |
 | Báo lỗi trang giới thiệu GitHub hoặc hướng dẫn này | [Issues của profile](https://github.com/embra-labs/.github/issues/new/choose) |
@@ -26,6 +26,6 @@ Thư đầu tiên chỉ cần mô tả ngắn, thành phần bị ảnh hưởng
 
 ## Phạm vi hỗ trợ hiện tại
 
-Embra đang ở closed alpha với onboarding thủ công. CLI chưa có bản phát hành công khai. Đây chưa phải kênh hỗ trợ production 24/7; giờ hỗ trợ và mức phản hồi cho người dùng thử sẽ được xác nhận trong lời mời alpha.
+Embra đang ở beta trả phí từ 25/10/2026, onboarding trực tiếp từng khách. Trong beta, người trả lời là người xây Embra; Embra cố gắng phản hồi trong ngày làm việc. Đây chưa phải hỗ trợ 24/7 và chưa có cam kết SLA.
 
 [Xem trạng thái và bước tiếp theo →](https://github.com/embra-labs/.github/blob/main/docs/start-here.md)
