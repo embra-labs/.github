@@ -17,8 +17,8 @@ Bạn đang xây website, web app hoặc API, và người viết code cũng là
 - Backup liên tục, restore về thời điểm bất kỳ trong 7 ngày gần nhất ra một bản riêng để kiểm tra.
 - Worker, cron và bucket lưu file theo từng gói.
 - Domain riêng + HTTPS, log và metrics.
-- CLI và MCP (`embra mcp`). Qua MCP, agent được build, tạo plan, chạy thử migration và đọc log, nhưng không được duyệt, xoá, export hay restore. Deploy production luôn chờ owner duyệt.
-- Tự xuất app và dữ liệu bằng `embra export`.
+- CLI và MCP (`embra mcp`) sắp có bản phát hành công khai; trong lúc chờ, dashboard đủ để deploy và vận hành. Qua MCP, agent được build, tạo plan, chạy thử migration và đọc log, nhưng không được duyệt, xoá, export hay restore. Deploy production luôn chờ owner duyệt.
+- Tự xuất app và dữ liệu trên dashboard (Cài đặt → Export): image, manifest, pg_dump và danh sách object, không kèm giá trị secret.
 
 Chưa có: queue, auth, email, realtime.
 
@@ -47,7 +47,7 @@ Chưa có: queue, auth, email, realtime.
 
 **Phục hồi:** rollback code và restore database là hai việc khác nhau. Restore về mốc cũ có thể bỏ các lần ghi sau mốc đó.
 
-**Dữ liệu ứng dụng:** owner tự xuất app và dữ liệu bằng `embra export`. Mỗi lần đội Embra xem log, metrics hay database của bạn để hỗ trợ đều được ghi lại kèm lý do. Bạn chịu trách nhiệm code và logic ứng dụng.
+**Dữ liệu ứng dụng:** owner tự xuất app và dữ liệu trên dashboard (Cài đặt → Export). Mỗi lần đội Embra xem log, metrics hay database của bạn để hỗ trợ đều được ghi lại kèm lý do. Bạn chịu trách nhiệm code và logic ứng dụng.
 
 **Dữ liệu đăng ký:** xem [thông báo xử lý dữ liệu](https://embra.cloud/chinh-sach-du-lieu.html). Không gửi mật khẩu, token hoặc dữ liệu khách hàng qua form hay GitHub Issues.
 

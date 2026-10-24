@@ -19,7 +19,7 @@ If the person writing code is also configuring servers and handling deployments,
 
 **Paid beta since 25 October 2026.** Production apps are accepted within each plan's limits, with direct onboarding for every customer and no SLA yet. Plans start at 249,000 VND per project per month: see [pricing](https://embra.cloud/bang-gia/).
 
-The beta includes deploys from GitHub through the dashboard, a dedicated Postgres with migration review, continuous backup with point-in-time restore, workers, cron, file buckets, custom domains, logs and metrics, the CLI and an MCP server (`embra mcp`) whose agents can propose but never approve. Queues, auth, email and realtime are not available yet.
+The beta includes deploys from GitHub through the dashboard, a dedicated Postgres with migration review, continuous backup with point-in-time restore, workers, cron, file buckets, custom domains, logs and metrics. The CLI and an MCP server (`embra mcp`, where agents can propose but never approve) are coming to a public release soon. Queues, auth, email and realtime are not available yet.
 
 ### What we're building
 
