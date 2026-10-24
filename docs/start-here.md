@@ -17,7 +17,7 @@ Bạn đang xây website, web app hoặc API, và người viết code cũng là
 - Backup liên tục, restore về thời điểm bất kỳ trong 7 ngày gần nhất ra một bản riêng để kiểm tra.
 - Worker, cron và bucket lưu file theo từng gói.
 - Domain riêng + HTTPS, log và metrics.
-- CLI và MCP (`embra mcp`). Qua MCP, agent được build, tạo plan, chạy thử migration và đọc log, nhưng không được duyệt, xoá, export hay restore. Deploy production luôn chờ owner duyệt.
+- CLI và MCP (`embra mcp`) sắp có bản phát hành công khai; trong lúc chờ, dashboard đủ để deploy và vận hành. Qua MCP, agent được build, tạo plan, chạy thử migration và đọc log, nhưng không được duyệt, xoá, export hay restore. Deploy production luôn chờ owner duyệt.
 - Tự xuất app và dữ liệu bằng `embra export`.
 
 Chưa có: queue, auth, email, realtime.
