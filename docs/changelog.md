@@ -4,7 +4,13 @@ Những thay đổi đã được xuất bản, mới nhất ở trên. Ngày th
 
 [Bắt đầu với Embra](https://github.com/embra-labs/.github/blob/main/docs/start-here.md) · [Hỗ trợ](https://github.com/embra-labs/.github/blob/main/SUPPORT.md) · [Website](https://embra.cloud/)
 
-Các mục dưới đây là cập nhật tài liệu và trải nghiệm GitHub. **Tại ngày 08/10/2026, Embra vẫn ở closed alpha, onboarding thủ công; CLI chưa có bản phát hành công khai.** Bản phần mềm khi phát hành sẽ có phiên bản và liên kết tới [CLI Releases](https://github.com/embra-labs/cli/releases).
+Các mục dưới đây là cập nhật tài liệu và trải nghiệm GitHub. **Từ 25/10/2026, Embra ở beta trả phí, onboarding trực tiếp từng khách.** Repo CLI chưa có bản phát hành công khai; khi có, bản phát hành sẽ có phiên bản và liên kết tới [CLI Releases](https://github.com/embra-labs/cli/releases).
+
+## 25/10/2026 — Beta trả phí
+
+- Mở beta trả phí: Start 249.000đ, Build 399.000đ, Grow 749.000đ mỗi project mỗi tháng, trả bằng VietQR ([bảng giá](https://embra.cloud/bang-gia/)). Nhận app production trong giới hạn gói; chưa có SLA.
+- Start here, hỗ trợ và profile GitHub viết lại theo beta: deploy từ GitHub qua dashboard, PostgreSQL riêng có review migration, backup và restore theo thời điểm, worker/cron/bucket, CLI và MCP. Máy chủ tại TP.HCM.
+- Website bỏ các câu "chưa phát hành" và "hướng M2" ở trang chủ, bài kiến trúc và trang so sánh.
 
 ## 08/10/2026 — Lộ trình, bằng chứng và đường bắt đầu
 

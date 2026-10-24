@@ -8,18 +8,18 @@
   <a href="https://embra.cloud/">Website</a> &nbsp;·&nbsp;
   <a href="https://embra.cloud/engineering/">Engineering</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/start-here.md">Start here (Tiếng Việt)</a> &nbsp;·&nbsp;
-  <a href="https://embra.cloud/#join">Join alpha waitlist</a> &nbsp;·&nbsp;
+  <a href="https://embra.cloud/bang-gia/">Pricing</a> &nbsp;·&nbsp;
   <a href="https://github.com/embra-labs/.github/blob/main/docs/changelog.md">Changelog</a> &nbsp;·&nbsp;
   <a href="mailto:hello@embra.cloud">Contact</a>
 </p>
 
-We're building app and PostgreSQL hosting for developers and small teams in Vietnam: build, deploy, and follow your app in one project.
+App and PostgreSQL hosting for developers and small teams in Vietnam, on servers in Ho Chi Minh City: deploy from GitHub, follow your app, and keep your database recoverable in one project.
 
 If the person writing code is also configuring servers and handling deployments, Embra is designed to bring that work into one workflow. Database review and recovery preparation are part of it.
 
-**In development · Preparing closed alpha with manual onboarding by invitation.** See our [roadmap and evidence](https://embra.cloud/#trang-thai). Joining the waitlist does not grant immediate access; the opening date is not set.
+**Paid beta since 25 October 2026.** Production apps are accepted within each plan's limits, with direct onboarding for every customer and no SLA yet. Plans start at 249,000 VND per project per month: see [pricing](https://embra.cloud/bang-gia/).
 
-M1 builds the CLI, container-image deployment, Postgres, and migration foundations. M2 continues the product flow illustrated on the website. The invitation will confirm which capabilities are ready.
+The beta includes deploys from GitHub through the dashboard, a dedicated Postgres with migration review, continuous backup with point-in-time restore, workers, cron, file buckets, custom domains, logs and metrics, the CLI and an MCP server (`embra mcp`) whose agents can propose but never approve. Queues, auth, email and realtime are not available yet.
 
 ### What we're building
 
@@ -31,7 +31,7 @@ Shipping an app means changing code **and** the data it depends on. We're design
 - **Keep consequential changes under your control.** Make approval an explicit part of the workflow.
 - **Make recovery decisions clear.** Show what can be restored, and what data could be lost.
 
-Explore the [interactive concept demo](https://embra.cloud/#stage) on our website. It illustrates the intended workflow; it is not a live production deployment.
+The [interactive demo](https://embra.cloud/#stage) on our website illustrates the workflow; it does not run on a live app.
 
 ### Engineering notes
 
@@ -41,14 +41,14 @@ Try the [runnable backfill demo](https://github.com/embra-labs/backfill-demo): o
 
 ### Who is building it?
 
-[Hoàng Xuân](https://github.com/hxuan190) builds and supports Embra. Read the [founder’s note](https://embra.cloud/#nguoi-lam) or review [data, recovery, and support questions](https://embra.cloud/#hoi-dap). Alpha is for test projects; production apps are not being accepted.
+[Hoàng Xuân](https://github.com/hxuan190) builds and supports Embra. Read the [founder’s note](https://embra.cloud/#nguoi-lam) or review [data, recovery, and support questions](https://embra.cloud/#hoi-dap).
 
 ### Explore Embra
 
 | Repository | What you'll find |
 | :--- | :--- |
 | [backfill-demo](https://github.com/embra-labs/backfill-demo) | Runnable PostgreSQL crash/resume example with CI and negative controls. |
-| [cli](https://github.com/embra-labs/cli) | Home of the Embra command-line client. In development; no public release yet. |
+| [cli](https://github.com/embra-labs/cli) | Home of the Embra command-line client. No public release yet. |
 | [embra-cloud](https://github.com/embra-labs/embra-cloud) | Source for the Embra website. |
 
-Building an app with Postgres? [Tell us about your project →](https://embra.cloud/#join)
+Building an app with Postgres? [See pricing →](https://embra.cloud/bang-gia/)
